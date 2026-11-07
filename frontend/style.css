@@ -1,0 +1,40 @@
+body {
+  color:white;
+  background-color:black;
+}
+
+h1, h4{
+    display:flex;
+    color:white;
+    justify-content:center;
+    font-family:'Times New Roman', Times, serif;
+}
+p {
+    text-align: center; /* Centraliza o texto */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: block; /* Garante que o texto e a imagem fiquem um embaixo do outro */
+    margin-top: 20px;
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+
+}
+
+button {
+  background-color:rgb(53, 53, 53);
+  color:white;
+}
+input{
+    background-color:rgb(53, 53, 53);
+    color:white;
+}
+input:focus {
+  outline: none; /* Remove o amarelo padrão */
+  border-color: #00f7ff; /* Muda a cor da borda interna */
+  box-shadow: 0 0 8px #00f7ff;/*um brilho ao redor (troque #00ff00 pela sua cor) */
+}
