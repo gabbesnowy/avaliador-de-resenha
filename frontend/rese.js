@@ -14,7 +14,7 @@ function avaliar() {
         novaImagem.style.maxWidth = "300px"; 
         resultado.appendChild(novaImagem);
     } 
-    else if (palavra.trim().toLowerCase() === "resenha" || palavra.trim().toLowerCase() === "anamatopeia" || palavra.trim().toLowerCase() === "67" || palavra.trim().toLowerCase() === "amigos") {
+    else if (palavra.trim().toLowerCase() === "resenha" || palavra.trim().toLowerCase() === "anamatopeia" || palavra.trim().toLowerCase() === "67" || palavra.trim().toLowerCase() === "amigos" || palavra.trim().toLowerCase() === "parabellum") {
         resultado.textContent = "Parabéns! Você escreveu uma resenha.";
         resultado.style.color = "green";
 
